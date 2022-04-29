@@ -6,7 +6,6 @@
    body{
      
        display: flex;
-       
        justify-content: center;
        align-items: center;
        width: 100%;
@@ -34,7 +33,7 @@
 .img-container img{
     box-shadow: 0 15px 30px rgba(0,0,0, .3);
     position: absolute;
-border-radius: 25px;
+ border-radius: 25px; 
     top:-40px;
     width: 100%;
     height: 100%;
@@ -82,28 +81,27 @@ justify-content: space-evenly;
     width: 450px;
     height:6px;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: rgba(131, 131, 131, 0.616);
 }
-.dot{
-    position: absolute;
-    left: 70px;
-
-    background-color: black;    
-    width: 6px;
-    height: 6px;
-    border-radius: 6px;
+.progress-bar{
+    background-color: whitesmoke;
+    width: 25%;
+    height:100%;
+    border-radius: 3px;
+   
 
 
 }
 .player-controls{
     width: 100%;
-    height: 40px;
+    height: 100px;
     display: flex;
  justify-content: center; 
-    align-items: flex-end; 
+    align-items: center; 
 }
 
-.player-controls #play{
-padding: 0 20px;
+.player-controls i{
+    font-size: 24px;
+padding: 0 15px;
 }
 
